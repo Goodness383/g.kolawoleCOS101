@@ -10,7 +10,7 @@ use std::io;
 
 fn main() {
    let mut input=String::new();
-   println!("\nEnter Your Height in centimetres):");
+   println!("\nEnter Your Height in centimetres:");
    io::stdin().read_line(&mut input).expect("Not a valid String");
    let height:f32=input.trim().parse().expect("Not a valid number");
 

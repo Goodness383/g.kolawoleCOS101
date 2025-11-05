@@ -14,6 +14,13 @@ fn main() {
 
     for x in lower_bound..upper_bound{// upper bound is not inclusive
         println!("Count level is {}", x);
-    }
+        }
+        if upper_bound<lower_bound{
+            println!("invalid ");
+        }
+        
+
+        }
+
 }
 

@@ -1,11 +1,11 @@
-fn main() {
+ fn main() {
     // while true 
-    let mut x = 0;
+    let mut x:i64 = 1;
     loop{
-        x+=1;
-        print!("x={}",x );
+        x+=10;
+        print!("x={}\n",x );
 
-        if x==15{
+        if x>=100{
             break;
         }
     }
