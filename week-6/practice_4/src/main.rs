@@ -5,7 +5,7 @@ fn main() {
 
    let mut school ="School of Science".to_string();
    //push string
-   school.push_str("and Technology");
+   school.push_str(" and Technology");
 
    println!("My name is: {}",fullname );
    //check length 
