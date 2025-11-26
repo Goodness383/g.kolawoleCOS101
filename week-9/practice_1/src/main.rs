@@ -1,4 +1,3 @@
-
 use std::io::Write;
 
 fn main() {
@@ -17,6 +16,6 @@ fn main() {
     file.write_all(dept.as_bytes())
         .expect("write failed");
 
-    println!("\nData written to file.");
+    println!("\nData written to file");
 }
 
