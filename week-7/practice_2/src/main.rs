@@ -15,7 +15,7 @@ fn checkers() {
 }
     fn main() {
         //calling function
-        println!("Welcome this program checks whether a character variable contains a digit or not ");
+        println!("Welcome this program checks whether a character variable contains a digit or not");
         checkers()
     }
 

@@ -17,7 +17,7 @@ fn main() {
 
 
    }
-   print!("Your preferred cities are:\n ");
+   print!("Your preferred cities are: \n ");
    let mut count=1;
    // loop to iterate elements in vector
    for i in city{
